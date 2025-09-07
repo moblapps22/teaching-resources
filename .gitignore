@@ -2,3 +2,21 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Ignore everything by default
+*
+
+# Allow markdown files
+!*.md
+
+# Allow RMarkdown files (optional, remove if not needed)
+!*.Rmd
+
+# Keep gitignore itself
+!.gitignore
+
+# Ignore RStudio project files
+*.Rproj
+
+# Ignore RStudio folders
+.Rproj.user/
