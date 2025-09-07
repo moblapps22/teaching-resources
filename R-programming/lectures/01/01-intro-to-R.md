@@ -1,5 +1,5 @@
 ---
-title: 'Introduction to R Programming'
+title: "Introduction to R Programming"
 author: "Laxmikant Soni"
 date: "2025-09-07"
 output:
@@ -21,6 +21,11 @@ R is a comprehensive **statistical** and **graphical** programming language and 
 - **1988 - S2**: RA Becker, JM Chambers, A Wilks  
 - **1992 - S3**: JM Chambers, TJ Hastie  
 - **1998 - S4**: JM Chambers  
+
+---
+
+
+# R Overview
 
 ## Development of R
 
@@ -61,6 +66,11 @@ R is a comprehensive **statistical** and **graphical** programming language and 
 - **Free and Open-source**: No licensing costs, accessible to everyone.  
 - **Cross-platform**: Works on Windows, macOS, and Linux.  
 - **Strong Community Support**: Thousands of contributors and active forums.  
+
+--- 
+
+# Advantages of R
+
 - **CRAN Repository**: 18,000+ packages for diverse applications.  
 - **Excellent Visualization**: High-quality graphics with `ggplot2`, `plotly`, etc.  
 - **Integration**: Can work with Python, C/C++, Java, and databases.  
@@ -74,10 +84,18 @@ R is a comprehensive **statistical** and **graphical** programming language and 
   - Rich ecosystem for **research, academia, and data exploration**.  
   - Strong libraries: `ggplot2`, `dplyr`, `caret`, `shiny`.  
 
+--- 
+
+# R vs Python
+
 - **Python**  
   - General-purpose programming with **broader applications** (web, ML, AI).  
   - Widely adopted in **industry and production systems**.  
   - Strong libraries: `pandas`, `scikit-learn`, `TensorFlow`, `matplotlib`.  
+
+--- 
+
+# R vs Python
 
 - **Takeaway**  
   - Use **R** when the focus is on **statistics & visualization**.  
@@ -90,6 +108,12 @@ R is a comprehensive **statistical** and **graphical** programming language and 
 - **Memory Intensive**: Stores all objects in memory, may struggle with very large datasets.  
 - **Speed Issues**: Slower than languages like C++, Java, or even Python in some cases.  
 - **Steep Learning Curve**: Syntax and advanced features can be challenging for beginners.  
+
+---
+
+# Limitations of R
+
+
 - **Less Suitable for Production**: Primarily designed for analysis, not large-scale deployment.  
 - **Package Overlap**: Thousands of packages, sometimes overlapping in functionality, can cause confusion.  
 
@@ -102,6 +126,11 @@ R is a comprehensive **statistical** and **graphical** programming language and 
 - **RStudio IDE**: [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/)  
 - **Documentation & Manuals**: [https://cran.r-project.org/manuals.html](https://cran.r-project.org/manuals.html)  
 - **Cheat Sheets**: [https://posit.co/resources/cheatsheets/](https://posit.co/resources/cheatsheets/)  
+
+---
+
+# R Resources
+
 - **Online Tutorials**:  
   - [R for Data Science (book)](https://r4ds.had.co.nz/)  
   - [Quick-R](https://www.statmethods.net/)  
@@ -118,6 +147,11 @@ R can perform all basic arithmetic operations:
 - **Addition (`+`)**: `2 + 3` → 5  
 - **Subtraction (`-`)**: `7 - 4` → 3  
 - **Multiplication (`*`)**: `6 * 3` → 18  
+
+---
+
+# Arithmetic in R
+
 - **Division (`/`)**: `10 / 2` → 5  
 - **Exponentiation (`^`)**: `2 ^ 4` → 16  
 - **Modulo (`%%`)**: `17 %% 3` → 2 (remainder)  
@@ -183,6 +217,11 @@ R supports different **data types**:
   - Example: `x <- 10`, `y <- 3.14`  
 - **Integer**: whole numbers  
   - Example: `z <- 5L`  
+
+---
+
+# Object Types in R
+
 - **Character (string)**: text values  
   - Example: `name <- "R Language"`  
 - **Logical (boolean)**: TRUE or FALSE  
@@ -310,7 +349,7 @@ x; y; z
 
 # Examples
 
-✅ Valid names  
+Valid names  
 
 
 ``` r
