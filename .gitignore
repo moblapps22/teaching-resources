@@ -10,7 +10,6 @@
 !*/
 
 # Allow markdown files
-!*.md
 !*.pdf
 
 # Keep .gitignore itself
