@@ -1,15 +1,3 @@
----
-title: "Introduction to R Programming"
-author: "Laxmikant Soni"
-date: "2025-09-07"
-output:
-  powerpoint_presentation:
-    reference_doc: template.pptx
-    keep_md: true
-always_allow_html: true
----
-
-
 
 
 # R Overview
@@ -275,16 +263,15 @@ This note gives a quick, example-driven tour.
 
 # Arithmetic Operators in R
 
-| Operator | Meaning              | Example Code     | Result |
-|----------|----------------------|------------------|--------|
-| `+`      | Addition             | `5 + 3 * 2`      | 11     |
-| `()`     | Precedence grouping  | `(5 + 3) * 2`    | 16     |
-| `^`      | Exponentiation       | `2^3^2`          | 512    |
-| `%%`     | Modulus (remainder)  | `17 %% 5`        | 2      |
-| `%/%`    | Integer division     | `17 %/% 5`       | 3      |
+| Operator | Meaning              | Example Code     | Result | Evaluation Order   |
+|----------|----------------------|------------------|--------|--------------------|
+| `+`      | Addition             | `5 + 3 * 2`      | 11     | Left to Right      |
+| `()`     | Precedence grouping  | `(5 + 3) * 2`    | 16     | Highest precedence |
+| `^`      | Exponentiation       | `2^3^2`          | 512    | Right to Left      |
+| `%%`     | Modulus (remainder)  | `17 %% 5`        | 2      | Left to Right      |
+| `%/%`    | Integer division     | `17 %/% 5`       | 3      | Left to Right      |
 
-> **Note:** R evaluates exponentiation right-to-left.  
-> Example: `2^3^2 = 2^(3^2) = 2^9 = 512`.
+ 
 
 ---
 
@@ -295,6 +282,11 @@ R provides functions for rounding numbers and working with absolute values:
 - `round(x, digits)` : Rounds to the specified number of decimal places  
 - `floor(x)` : Largest integer less than or equal to *x*  
 - `ceiling(x)` : Smallest integer greater than or equal to *x*  
+
+---
+
+# Rounding & Absolute Values
+
 - `trunc(x)` : Truncates toward zero  
 - `sign(x)` : Returns -1, 0, or 1 depending on the sign of *x*  
 - `abs(x)` : Absolute value  
